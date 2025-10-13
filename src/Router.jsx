@@ -9,8 +9,7 @@ import EmployeeTasks from "./pages/Main/EmployeeTasks";
 import NotFound from "./NotFound";
 import ActivityList from "./pages/Main/Activities";
 import UnAssigned from "./pages/Main/Unassigned";
-import CourseRecommender from "./components/Course";
-import NewsCards from "./components/NewsCards";
+
 
 //Employee Routes
 import EmployeeDashboard from "./pages/Employee/Dashboard";
@@ -32,8 +31,7 @@ const Router = () => {
          <Route path="/activities" element={<ActivityList />} />
          <Route path="tasks-unassigned" element={< UnAssigned/>} />
 
-                  <Route path="/course" element={< CourseRecommender/>} />
-                  <Route path="/news" element={<NewsCards/>}/>
+
 
 
         //Employee Routes
